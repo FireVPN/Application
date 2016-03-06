@@ -1,0 +1,1534 @@
+2016-03-06 11:44:58,178 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 11:44:58,178 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 11:45:01,498 - udp_holepuncher - DEBUG - Name: viktor
+2016-03-06 11:45:06,132 - udp_holepuncher - DEBUG - Server: 192.168.0.4, 45678
+2016-03-06 11:45:06,133 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 11:45:06,134 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 11:45:06,141 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 11:45:06,141 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 11:45:06,141 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 11:45:06,142 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 49171)
+2016-03-06 11:47:14,536 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 11:47:14,536 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 11:47:16,528 - udp_holepuncher - DEBUG - Name: viktor
+2016-03-06 11:47:19,015 - udp_holepuncher - DEBUG - Server: 192.168.0.4, 45678
+2016-03-06 11:47:19,016 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 11:47:19,016 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 11:47:19,020 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 11:47:19,020 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 11:47:19,021 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 11:47:19,021 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 54412)
+2016-03-06 12:02:31,445 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 12:02:31,446 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 12:02:33,053 - udp_holepuncher - DEBUG - Name: viktor
+2016-03-06 12:02:35,389 - udp_holepuncher - DEBUG - Server: 192.168.0.4, 45678
+2016-03-06 12:02:35,389 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 12:02:35,389 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 12:02:35,393 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 12:02:35,393 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 12:02:35,394 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 12:02:35,394 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 53068)
+2016-03-06 13:35:06,398 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 13:35:06,398 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 13:35:07,978 - udp_holepuncher - DEBUG - Name: viktor
+2016-03-06 13:35:11,905 - udp_holepuncher - DEBUG - Server: 127.0.0.1, 45678
+2016-03-06 13:35:11,906 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 13:35:11,906 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 13:35:11,910 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 13:35:11,911 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 13:35:11,911 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 13:35:11,912 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 47464)
+2016-03-06 13:35:24,502 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 13:35:24,502 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 13:35:26,395 - udp_holepuncher - DEBUG - Name: test
+2016-03-06 13:35:27,373 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 13:35:27,373 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 13:35:27,374 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 13:35:27,377 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 13:35:27,378 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 13:35:27,378 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 13:35:27,378 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 34601)
+2016-03-06 13:37:02,308 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 13:37:02,308 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 13:37:03,796 - udp_holepuncher - DEBUG - Name: viktor
+2016-03-06 13:37:04,193 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 13:37:04,194 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 13:37:04,194 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 13:37:04,199 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 13:37:04,200 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 13:37:04,201 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 13:37:04,201 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 58622)
+2016-03-06 13:37:07,768 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 13:37:07,769 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 13:37:09,348 - udp_holepuncher - DEBUG - Name: gnu
+2016-03-06 13:37:09,967 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 13:37:09,967 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 13:37:09,968 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 13:37:09,974 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 13:37:09,974 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 13:37:09,975 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 13:37:09,976 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 42957)
+2016-03-06 13:37:21,251 - udp_holepuncher - DEBUG - send connection request to server
+2016-03-06 13:37:21,252 - udp_holepuncher - DEBUG - Partner received: 127.0.0.1, 58622
+2016-03-06 13:37:21,252 - udp_holepuncher - DEBUG - Connection request from ('gnu', '127.0.0.1', 42957)
+2016-03-06 13:37:22,540 - udp_holepuncher - DEBUG - Agreed to client connection
+2016-03-06 13:37:22,540 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 13:37:22,540 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 13:37:22,540 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+				Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 42957	PARTNER: 127.0.0.1, 58622
+2016-03-06 13:37:22,541 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+				Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 58622	PARTNER: 127.0.0.1, 42957
+2016-03-06 13:37:27,545 - udp_holepuncher - DEBUG - No punchingpacket received
+2016-03-06 13:37:27,545 - udp_holepuncher - DEBUG - No punchingpacket received
+2016-03-06 13:42:33,101 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 13:42:33,101 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 13:42:34,963 - udp_holepuncher - DEBUG - Name: viktor
+2016-03-06 13:42:35,876 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 13:42:35,877 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 13:42:35,878 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 13:42:35,884 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 13:42:35,885 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 13:42:35,885 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 13:42:35,886 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 53170)
+2016-03-06 13:42:38,932 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 13:42:38,932 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 13:42:40,734 - udp_holepuncher - DEBUG - Name: test
+2016-03-06 13:42:41,232 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 13:42:41,232 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 13:42:41,233 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 13:42:41,237 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 13:42:41,238 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 13:42:41,239 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 13:42:41,239 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 50828)
+2016-03-06 13:42:45,653 - udp_holepuncher - DEBUG - send connection request to server
+2016-03-06 13:42:45,654 - udp_holepuncher - DEBUG - Partner received: 127.0.0.1, 53170
+2016-03-06 13:42:45,654 - udp_holepuncher - DEBUG - Connection request from ('test', '127.0.0.1', 50828)
+2016-03-06 13:42:48,313 - udp_holepuncher - DEBUG - Agreed to client connection
+2016-03-06 13:42:48,314 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 13:42:48,314 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 13:42:48,314 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+				Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 50828	PARTNER: 127.0.0.1, 53170
+2016-03-06 13:42:48,314 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+				Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 53170	PARTNER: 127.0.0.1, 50828
+2016-03-06 13:42:53,320 - udp_holepuncher - DEBUG - No punchingpacket received
+2016-03-06 13:42:53,320 - udp_holepuncher - DEBUG - No punchingpacket received
+2016-03-06 13:43:32,283 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 13:43:32,284 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 13:43:33,495 - udp_holepuncher - DEBUG - Name: viktor
+2016-03-06 13:43:33,724 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 13:43:33,724 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 13:43:33,724 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 13:43:33,728 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 13:43:33,729 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 13:43:33,730 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 13:43:33,730 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 57349)
+2016-03-06 13:43:37,044 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 13:43:37,044 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 13:43:38,273 - udp_holepuncher - DEBUG - Name: test
+2016-03-06 13:43:38,526 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 13:43:38,527 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 13:43:38,527 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 13:43:38,533 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 13:43:38,534 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 13:43:38,535 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 13:43:38,535 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 50678)
+2016-03-06 13:43:44,685 - udp_holepuncher - DEBUG - send connection request to server
+2016-03-06 13:43:44,686 - udp_holepuncher - DEBUG - Connection request from ('test', '127.0.0.1', 50678)
+2016-03-06 13:43:44,686 - udp_holepuncher - DEBUG - Partner received: 127.0.0.1, 57349
+2016-03-06 13:43:46,272 - udp_holepuncher - DEBUG - Agreed to client connection
+2016-03-06 13:43:46,272 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 13:43:46,272 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 13:43:46,272 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+				Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 50678	PARTNER: 127.0.0.1, 57349
+2016-03-06 13:43:46,272 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+				Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 57349	PARTNER: 127.0.0.1, 50678
+2016-03-06 13:43:46,273 - udp_holepuncher - DEBUG - Try to connect to viktor directly
+2016-03-06 13:43:46,273 - udp_holepuncher - DEBUG - Try to connect to test directly
+2016-03-06 13:43:46,273 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 13:43:46,273 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 13:43:46,273 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 57349)
+2016-03-06 13:43:46,273 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 50678)
+2016-03-06 13:43:46,273 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 50678)
+2016-03-06 13:43:46,273 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 57349)
+2016-03-06 13:43:47,273 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 13:43:47,273 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 57349)
+2016-03-06 13:43:47,274 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 50678)
+2016-03-06 13:43:47,274 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 13:43:47,274 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 50678)
+2016-03-06 13:43:47,274 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 57349)
+2016-03-06 13:45:10,274 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 13:45:10,274 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 13:45:12,297 - udp_holepuncher - DEBUG - Name: viktor
+2016-03-06 13:45:14,154 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 13:45:14,154 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 13:45:14,154 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 13:45:14,158 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 13:45:14,158 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 13:45:14,159 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 13:45:14,160 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 40349)
+2016-03-06 13:45:16,212 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 13:45:16,212 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 13:45:17,878 - udp_holepuncher - DEBUG - Name: test
+2016-03-06 13:45:18,641 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 13:45:18,641 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 13:45:18,641 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 13:45:18,647 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 13:45:18,647 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 13:45:18,648 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 13:45:18,648 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 55795)
+2016-03-06 13:45:40,512 - udp_holepuncher - DEBUG - send connection request to server
+2016-03-06 13:45:40,513 - udp_holepuncher - DEBUG - Partner received: 127.0.0.1, 40349
+2016-03-06 13:45:40,513 - udp_holepuncher - DEBUG - Connection request from ('test', '127.0.0.1', 55795)
+2016-03-06 13:45:42,483 - udp_holepuncher - DEBUG - Agreed to client connection
+2016-03-06 13:45:42,484 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 13:45:42,484 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 55795	PARTNER: 127.0.0.1, 40349
+2016-03-06 13:45:42,485 - udp_holepuncher - DEBUG - Try to connect to viktor directly
+2016-03-06 13:45:42,485 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 13:45:42,485 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 13:45:42,485 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 40349)
+2016-03-06 13:45:42,485 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 40349	PARTNER: 127.0.0.1, 55795
+2016-03-06 13:45:42,486 - udp_holepuncher - DEBUG - Try to connect to test directly
+2016-03-06 13:45:42,486 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 55795)
+2016-03-06 13:45:42,487 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 13:45:42,487 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 55795)
+2016-03-06 13:45:42,488 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 40349)
+2016-03-06 13:45:43,485 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 13:45:43,486 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 40349)
+2016-03-06 13:45:43,486 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 55795)
+2016-03-06 13:50:00,820 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 13:50:00,821 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 13:50:02,283 - udp_holepuncher - DEBUG - Name: viktor
+2016-03-06 13:50:02,807 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 13:50:02,807 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 13:50:02,807 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 13:50:02,809 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 13:50:02,810 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 13:50:02,810 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 13:50:02,810 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 39706)
+2016-03-06 13:50:05,567 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 13:50:05,568 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 13:50:06,929 - udp_holepuncher - DEBUG - Name: test
+2016-03-06 13:50:07,441 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 13:50:07,441 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 13:50:07,442 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 13:50:07,446 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 13:50:07,446 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 13:50:07,447 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 13:50:07,447 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 59638)
+2016-03-06 13:50:11,705 - udp_holepuncher - DEBUG - send connection request to server
+2016-03-06 13:50:11,705 - udp_holepuncher - DEBUG - Partner received: 127.0.0.1, 39706
+2016-03-06 13:50:11,705 - udp_holepuncher - DEBUG - Connection request from ('test', '127.0.0.1', 59638)
+2016-03-06 13:50:14,611 - udp_holepuncher - DEBUG - Agreed to client connection
+2016-03-06 13:50:14,612 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 13:50:14,612 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 59638	PARTNER: 127.0.0.1, 39706
+2016-03-06 13:50:14,613 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 13:50:14,613 - udp_holepuncher - DEBUG - Try to connect to viktor directly
+2016-03-06 13:50:14,613 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 13:50:14,613 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 39706	PARTNER: 127.0.0.1, 59638
+2016-03-06 13:50:14,614 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 39706)
+2016-03-06 13:50:14,614 - udp_holepuncher - DEBUG - Try to connect to test directly
+2016-03-06 13:50:14,614 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 59638)
+2016-03-06 13:50:14,615 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 13:50:14,615 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 59638)
+2016-03-06 13:50:14,616 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 39706)
+2016-03-06 13:50:15,614 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 13:50:15,615 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 39706)
+2016-03-06 13:50:15,615 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 59638)
+2016-03-06 13:53:43,462 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 13:53:43,462 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 13:53:45,141 - udp_holepuncher - DEBUG - Name: vviktor
+2016-03-06 13:53:45,537 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 13:53:45,538 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 13:53:45,538 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 13:53:45,544 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 13:53:45,545 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 13:53:45,545 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 13:53:45,545 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 53702)
+2016-03-06 13:53:48,254 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 13:53:48,254 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 13:53:49,462 - udp_holepuncher - DEBUG - Name: test
+2016-03-06 13:53:49,931 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 13:53:49,932 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 13:53:49,933 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 13:53:49,941 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 13:53:49,941 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 13:53:49,941 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 13:53:49,942 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 46704)
+2016-03-06 13:53:54,198 - udp_holepuncher - DEBUG - send connection request to server
+2016-03-06 13:53:54,199 - udp_holepuncher - DEBUG - Partner received: 127.0.0.1, 53702
+2016-03-06 13:53:54,199 - udp_holepuncher - DEBUG - Connection request from ('test', '127.0.0.1', 46704)
+2016-03-06 13:53:56,020 - udp_holepuncher - DEBUG - Agreed to client connection
+2016-03-06 13:53:56,021 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 13:53:56,020 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 13:53:56,021 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 53702	PARTNER: 127.0.0.1, 46704
+2016-03-06 13:53:56,021 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 46704	PARTNER: 127.0.0.1, 53702
+2016-03-06 13:53:56,021 - udp_holepuncher - DEBUG - Try to connect to test directly
+2016-03-06 13:53:56,021 - udp_holepuncher - DEBUG - Try to connect to vviktor directly
+2016-03-06 13:53:56,022 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 13:53:56,022 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 46704)
+2016-03-06 13:53:56,022 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 13:53:56,022 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 53702)
+2016-03-06 13:53:56,023 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 53702)
+2016-03-06 13:53:56,023 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 46704)
+2016-03-06 13:53:57,022 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 13:53:57,023 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 46704)
+2016-03-06 13:53:57,023 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 53702)
+2016-03-06 13:53:57,023 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 13:53:57,023 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 53702)
+2016-03-06 13:53:57,024 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 46704)
+2016-03-06 13:56:37,012 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 13:56:37,012 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 13:56:40,242 - udp_holepuncher - DEBUG - Name: viktor
+2016-03-06 13:56:40,591 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 13:56:40,592 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 13:56:40,592 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 13:56:40,599 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 13:56:40,600 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 13:56:40,601 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 13:56:40,601 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 34064)
+2016-03-06 13:56:42,784 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 13:56:42,786 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 13:56:43,911 - udp_holepuncher - DEBUG - Name: test
+2016-03-06 13:56:44,148 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 13:56:44,148 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 13:56:44,148 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 13:56:44,152 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 13:56:44,153 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 13:56:44,153 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 13:56:44,153 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 46121)
+2016-03-06 13:56:47,783 - udp_holepuncher - DEBUG - send connection request to server
+2016-03-06 13:56:47,783 - udp_holepuncher - DEBUG - Partner received: 127.0.0.1, 34064
+2016-03-06 13:56:47,783 - udp_holepuncher - DEBUG - Connection request from ('test', '127.0.0.1', 46121)
+2016-03-06 13:56:49,537 - udp_holepuncher - DEBUG - Agreed to client connection
+2016-03-06 13:56:49,537 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 13:56:49,537 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 13:56:49,538 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 46121	PARTNER: 127.0.0.1, 34064
+2016-03-06 13:56:49,538 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 34064	PARTNER: 127.0.0.1, 46121
+2016-03-06 13:56:49,538 - udp_holepuncher - DEBUG - Try to connect to viktor directly
+2016-03-06 13:56:49,538 - udp_holepuncher - DEBUG - Try to connect to test directly
+2016-03-06 13:56:49,539 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 13:56:49,539 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 13:56:49,539 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 34064)
+2016-03-06 13:56:49,539 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 46121)
+2016-03-06 13:56:49,540 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 34064)
+2016-03-06 13:56:50,540 - udp_holepuncher - DEBUG - Defined heuristic 2: same IP, Port+1
+2016-03-06 13:56:50,540 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 46122)
+2016-03-06 13:56:51,540 - udp_holepuncher - DEBUG - Defined heuristic 3: same IP, Port-1
+2016-03-06 13:56:51,541 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 46120)
+2016-03-06 13:56:54,543 - udp_holepuncher - DEBUG - No punchingpacket received
+2016-03-06 13:56:54,543 - udp_holepuncher - DEBUG - Try to connect to ('test', '127.0.0.1', 46121) over server
+2016-03-06 13:56:54,544 - udp_holepuncher - DEBUG - Defined heuristic 2: Relaying over server
+2016-03-06 13:56:54,544 - udp_holepuncher - DEBUG - Sending punchingpacket to ('', 45678)
+2016-03-06 13:57:46,465 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 13:57:46,465 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 13:57:47,726 - udp_holepuncher - DEBUG - Name: viktor
+2016-03-06 13:57:47,963 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 13:57:47,964 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 13:57:47,964 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 13:57:47,967 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 13:57:47,967 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 13:57:47,968 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 13:57:47,968 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 57846)
+2016-03-06 13:57:50,172 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 13:57:50,172 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 13:57:51,499 - udp_holepuncher - DEBUG - Name: test
+2016-03-06 13:57:51,751 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 13:57:51,751 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 13:57:51,751 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 13:57:51,754 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 13:57:51,754 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 13:57:51,754 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 13:57:51,754 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 32989)
+2016-03-06 13:57:55,352 - udp_holepuncher - DEBUG - send connection request to server
+2016-03-06 13:57:55,353 - udp_holepuncher - DEBUG - Partner received: 127.0.0.1, 57846
+2016-03-06 13:57:55,353 - udp_holepuncher - DEBUG - Connection request from ('test', '127.0.0.1', 32989)
+2016-03-06 13:57:57,107 - udp_holepuncher - DEBUG - Agreed to client connection
+2016-03-06 13:57:57,107 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 13:57:57,108 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 13:57:57,108 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 32989	PARTNER: 127.0.0.1, 57846
+2016-03-06 13:57:57,108 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 57846	PARTNER: 127.0.0.1, 32989
+2016-03-06 13:57:57,108 - udp_holepuncher - DEBUG - Try to connect to viktor directly
+2016-03-06 13:57:57,108 - udp_holepuncher - DEBUG - Try to connect to test directly
+2016-03-06 13:57:57,108 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 13:57:57,108 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 13:57:57,109 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 57846)
+2016-03-06 13:57:57,109 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 32989)
+2016-03-06 13:57:57,109 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 57846)
+2016-03-06 13:57:57,109 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 32989)
+2016-03-06 14:00:12,120 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 14:00:12,120 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 14:00:14,435 - udp_holepuncher - DEBUG - Name: viktor
+2016-03-06 14:00:14,946 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 14:00:14,947 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 14:00:14,948 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 14:00:14,954 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 14:00:14,954 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 14:00:14,954 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 14:00:14,954 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 60068)
+2016-03-06 14:00:17,314 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 14:00:17,314 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 14:00:18,598 - udp_holepuncher - DEBUG - Name: test
+2016-03-06 14:00:18,932 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 14:00:18,932 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 14:00:18,933 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 14:00:18,941 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 14:00:18,941 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 14:00:18,942 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 14:00:18,942 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 47416)
+2016-03-06 14:00:42,356 - udp_holepuncher - DEBUG - send connection request to server
+2016-03-06 14:00:42,357 - udp_holepuncher - DEBUG - Partner received: 127.0.0.1, 60068
+2016-03-06 14:00:42,358 - udp_holepuncher - DEBUG - Connection request from ('test', '127.0.0.1', 47416)
+2016-03-06 14:00:45,047 - udp_holepuncher - DEBUG - Agreed to client connection
+2016-03-06 14:00:45,048 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 14:00:45,048 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 14:00:45,048 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 60068	PARTNER: 127.0.0.1, 47416
+2016-03-06 14:00:45,048 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 47416	PARTNER: 127.0.0.1, 60068
+2016-03-06 14:00:45,048 - udp_holepuncher - DEBUG - Try to connect to test directly
+2016-03-06 14:00:45,048 - udp_holepuncher - DEBUG - Try to connect to viktor directly
+2016-03-06 14:00:45,049 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 14:00:45,049 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 47416)
+2016-03-06 14:00:45,049 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 14:00:45,049 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 60068)
+2016-03-06 14:00:45,049 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 60068)
+2016-03-06 14:00:45,050 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 47416)
+2016-03-06 14:01:41,352 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 14:01:41,352 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 14:01:42,603 - udp_holepuncher - DEBUG - Name: viktor
+2016-03-06 14:01:42,952 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 14:01:42,952 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 14:01:42,953 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 14:01:42,957 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 14:01:42,958 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 14:01:42,959 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 14:01:42,959 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 54226)
+2016-03-06 14:01:44,889 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 14:01:44,889 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 14:01:46,096 - udp_holepuncher - DEBUG - Name: test
+2016-03-06 14:01:46,308 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 14:01:46,309 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 14:01:46,309 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 14:01:46,312 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 14:01:46,312 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 14:01:46,312 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 14:01:46,313 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 55868)
+2016-03-06 14:01:49,724 - udp_holepuncher - DEBUG - send connection request to server
+2016-03-06 14:01:49,724 - udp_holepuncher - DEBUG - Partner received: 127.0.0.1, 54226
+2016-03-06 14:01:49,724 - udp_holepuncher - DEBUG - Connection request from ('test', '127.0.0.1', 55868)
+2016-03-06 14:01:51,226 - udp_holepuncher - DEBUG - Agreed to client connection
+2016-03-06 14:01:51,226 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 14:01:51,226 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 14:01:51,227 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 54226	PARTNER: 127.0.0.1, 55868
+2016-03-06 14:01:51,227 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 55868	PARTNER: 127.0.0.1, 54226
+2016-03-06 14:01:51,227 - udp_holepuncher - DEBUG - Try to connect to test directly
+2016-03-06 14:01:51,227 - udp_holepuncher - DEBUG - Try to connect to viktor directly
+2016-03-06 14:01:51,227 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 14:01:51,227 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 14:01:51,228 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 54226)
+2016-03-06 14:01:51,228 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 55868)
+2016-03-06 14:01:51,228 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 55868)
+2016-03-06 14:01:52,228 - udp_holepuncher - DEBUG - Defined heuristic 2: same IP, Port+1
+2016-03-06 14:01:52,228 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 54227)
+2016-03-06 14:01:53,229 - udp_holepuncher - DEBUG - Defined heuristic 3: same IP, Port-1
+2016-03-06 14:01:53,229 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 54225)
+2016-03-06 14:01:56,233 - udp_holepuncher - DEBUG - No punchingpacket received
+2016-03-06 14:01:56,233 - udp_holepuncher - DEBUG - Try to connect to ('viktor', '127.0.0.1', 54226) over server
+2016-03-06 14:01:56,233 - udp_holepuncher - DEBUG - Defined heuristic 2: Relaying over server
+2016-03-06 14:01:56,233 - udp_holepuncher - DEBUG - Sending punchingpacket to ('', 45678)
+2016-03-06 14:01:56,234 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 45678)
+2016-03-06 14:01:56,234 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 45678)
+2016-03-06 14:02:03,515 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 14:02:03,515 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 14:02:04,887 - udp_holepuncher - DEBUG - Name: viktor
+2016-03-06 14:02:05,156 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 14:02:05,156 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 14:02:05,156 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 14:02:05,161 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 14:02:05,162 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 14:02:05,163 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 14:02:05,163 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 35633)
+2016-03-06 14:02:08,304 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 14:02:08,305 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 14:02:09,784 - udp_holepuncher - DEBUG - Name: test
+2016-03-06 14:02:10,084 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 14:02:10,084 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 14:02:10,084 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 14:02:10,089 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 14:02:10,090 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 14:02:10,090 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 14:02:10,090 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 58294)
+2016-03-06 14:02:14,767 - udp_holepuncher - DEBUG - send connection request to server
+2016-03-06 14:02:14,768 - udp_holepuncher - DEBUG - Partner received: 127.0.0.1, 35633
+2016-03-06 14:02:14,768 - udp_holepuncher - DEBUG - Connection request from ('test', '127.0.0.1', 58294)
+2016-03-06 14:02:17,014 - udp_holepuncher - DEBUG - Agreed to client connection
+2016-03-06 14:02:17,015 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 14:02:17,015 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 14:02:17,015 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 35633	PARTNER: 127.0.0.1, 58294
+2016-03-06 14:02:17,015 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 58294	PARTNER: 127.0.0.1, 35633
+2016-03-06 14:02:17,016 - udp_holepuncher - DEBUG - Try to connect to test directly
+2016-03-06 14:02:17,016 - udp_holepuncher - DEBUG - Try to connect to viktor directly
+2016-03-06 14:02:17,016 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 14:02:17,016 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 14:02:17,016 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 58294)
+2016-03-06 14:02:17,016 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 35633)
+2016-03-06 14:02:17,017 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 58294)
+2016-03-06 14:02:18,017 - udp_holepuncher - DEBUG - Defined heuristic 2: same IP, Port+1
+2016-03-06 14:02:18,017 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 35634)
+2016-03-06 14:02:19,017 - udp_holepuncher - DEBUG - Defined heuristic 3: same IP, Port-1
+2016-03-06 14:02:19,018 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 35632)
+2016-03-06 14:02:22,021 - udp_holepuncher - DEBUG - No punchingpacket received
+2016-03-06 14:02:22,022 - udp_holepuncher - DEBUG - Try to connect to ('viktor', '127.0.0.1', 35633) over server
+2016-03-06 14:02:22,022 - udp_holepuncher - DEBUG - Defined heuristic 2: Relaying over server
+2016-03-06 14:02:22,022 - udp_holepuncher - DEBUG - Sending punchingpacket to ('', 45678)
+2016-03-06 14:02:22,023 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 45678)
+2016-03-06 14:02:22,023 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 45678)
+2016-03-06 14:04:53,894 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 14:04:53,895 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 14:04:55,196 - udp_holepuncher - DEBUG - Name: test
+2016-03-06 14:04:55,610 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 14:04:55,611 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 14:04:55,612 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 14:04:55,619 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 14:04:55,619 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 14:04:55,620 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 14:04:55,620 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 36405)
+2016-03-06 14:04:58,105 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 14:04:58,106 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 14:05:01,194 - udp_holepuncher - DEBUG - Name: vb
+2016-03-06 14:05:01,839 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 14:05:01,839 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 14:05:01,839 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 14:05:01,842 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 14:05:01,842 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 14:05:01,842 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 14:05:01,843 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 43268)
+2016-03-06 14:05:05,303 - udp_holepuncher - DEBUG - send connection request to server
+2016-03-06 14:05:05,304 - udp_holepuncher - DEBUG - Partner received: 127.0.0.1, 36405
+2016-03-06 14:05:05,304 - udp_holepuncher - DEBUG - Connection request from ('vb', '127.0.0.1', 43268)
+2016-03-06 14:05:06,826 - udp_holepuncher - DEBUG - Agreed to client connection
+2016-03-06 14:05:06,826 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 14:05:06,827 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 14:05:06,828 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 36405	PARTNER: 127.0.0.1, 43268
+2016-03-06 14:05:06,828 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 43268	PARTNER: 127.0.0.1, 36405
+2016-03-06 14:05:06,828 - udp_holepuncher - DEBUG - Try to connect to test directly
+2016-03-06 14:05:06,828 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 14:05:06,828 - udp_holepuncher - DEBUG - Try to connect to vb directly
+2016-03-06 14:05:06,829 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 36405)
+2016-03-06 14:05:06,829 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 14:05:06,829 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 43268)
+2016-03-06 14:05:06,829 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 43268)
+2016-03-06 14:05:06,829 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 36405)
+2016-03-06 14:10:53,051 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 14:10:53,052 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 14:10:54,466 - udp_holepuncher - DEBUG - Name: viktor
+2016-03-06 14:10:54,671 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 14:10:54,672 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 14:10:54,672 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 14:10:54,675 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 14:10:54,675 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 14:10:54,676 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 14:10:54,676 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 56480)
+2016-03-06 14:10:58,492 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 14:10:58,492 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 14:10:59,761 - udp_holepuncher - DEBUG - Name: test
+2016-03-06 14:11:00,246 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 14:11:00,246 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 14:11:00,246 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 14:11:00,251 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 14:11:00,252 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 14:11:00,252 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 14:11:00,253 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 51963)
+2016-03-06 14:11:03,849 - udp_holepuncher - DEBUG - send connection request to server
+2016-03-06 14:11:03,850 - udp_holepuncher - DEBUG - Connection request from ('test', '127.0.0.1', 51963)
+2016-03-06 14:11:03,850 - udp_holepuncher - DEBUG - Partner received: 127.0.0.1, 56480
+2016-03-06 14:11:05,793 - udp_holepuncher - DEBUG - Agreed to client connection
+2016-03-06 14:11:05,794 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 14:11:05,794 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 14:11:05,794 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 56480	PARTNER: 127.0.0.1, 51963
+2016-03-06 14:11:05,794 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 51963	PARTNER: 127.0.0.1, 56480
+2016-03-06 14:11:05,794 - udp_holepuncher - DEBUG - Try to connect to test directly
+2016-03-06 14:11:05,795 - udp_holepuncher - DEBUG - Try to connect to viktor directly
+2016-03-06 14:11:05,795 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 14:11:05,795 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 14:11:05,795 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 51963)
+2016-03-06 14:11:05,795 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 56480)
+2016-03-06 14:11:05,795 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 56480)
+2016-03-06 14:11:05,795 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 51963)
+2016-03-06 14:11:41,022 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 14:11:41,022 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 14:11:41,844 - udp_holepuncher - DEBUG - Name: viktor
+2016-03-06 14:11:42,148 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 14:11:42,149 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 14:11:42,150 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 14:11:42,153 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 14:11:42,153 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 14:11:42,154 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 14:11:42,154 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 44298)
+2016-03-06 14:11:45,366 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 14:11:45,366 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 14:11:46,569 - udp_holepuncher - DEBUG - Name: test
+2016-03-06 14:11:46,790 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 14:11:46,790 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 14:11:46,792 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 14:11:46,795 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 14:11:46,796 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 14:11:46,796 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 14:11:46,796 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 42315)
+2016-03-06 14:11:50,574 - udp_holepuncher - DEBUG - send connection request to server
+2016-03-06 14:11:50,575 - udp_holepuncher - DEBUG - Partner received: 127.0.0.1, 44298
+2016-03-06 14:11:50,575 - udp_holepuncher - DEBUG - Connection request from ('test', '127.0.0.1', 42315)
+2016-03-06 14:11:51,972 - udp_holepuncher - DEBUG - Agreed to client connection
+2016-03-06 14:11:51,972 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 14:11:51,973 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 14:11:51,973 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 44298	PARTNER: 127.0.0.1, 42315
+2016-03-06 14:11:51,973 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 42315	PARTNER: 127.0.0.1, 44298
+2016-03-06 14:11:51,973 - udp_holepuncher - DEBUG - Try to connect to test directly
+2016-03-06 14:11:51,973 - udp_holepuncher - DEBUG - Try to connect to viktor directly
+2016-03-06 14:11:51,973 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 14:11:51,973 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 14:11:51,973 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 44298)
+2016-03-06 14:11:51,973 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 42315)
+2016-03-06 14:11:51,973 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 42315)
+2016-03-06 14:11:51,973 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 44298)
+2016-03-06 14:12:15,936 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 14:12:15,936 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 14:12:17,391 - udp_holepuncher - DEBUG - Name: viktor
+2016-03-06 14:12:17,580 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 14:12:17,581 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 14:12:17,581 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 14:12:17,583 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 14:12:17,584 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 14:12:17,584 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 14:12:17,584 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 33509)
+2016-03-06 14:12:19,443 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 14:12:19,443 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 14:12:20,526 - udp_holepuncher - DEBUG - Name: test
+2016-03-06 14:12:20,723 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 14:12:20,723 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 14:12:20,724 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 14:12:20,727 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 14:12:20,727 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 14:12:20,727 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 14:12:20,728 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 58784)
+2016-03-06 14:12:24,331 - udp_holepuncher - DEBUG - send connection request to server
+2016-03-06 14:12:24,332 - udp_holepuncher - DEBUG - Partner received: 127.0.0.1, 33509
+2016-03-06 14:12:24,332 - udp_holepuncher - DEBUG - Connection request from ('test', '127.0.0.1', 58784)
+2016-03-06 14:12:26,075 - udp_holepuncher - DEBUG - Agreed to client connection
+2016-03-06 14:12:26,076 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 14:12:26,076 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 14:12:26,076 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 58784	PARTNER: 127.0.0.1, 33509
+2016-03-06 14:12:26,076 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 33509	PARTNER: 127.0.0.1, 58784
+2016-03-06 14:12:26,077 - udp_holepuncher - DEBUG - Try to connect to viktor directly
+2016-03-06 14:12:26,077 - udp_holepuncher - DEBUG - Try to connect to test directly
+2016-03-06 14:12:26,077 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 14:12:26,077 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 14:12:26,077 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 33509)
+2016-03-06 14:12:26,078 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 58784)
+2016-03-06 14:12:26,078 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 33509)
+2016-03-06 14:12:26,078 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 58784)
+2016-03-06 14:13:53,891 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 14:13:53,891 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 14:13:56,269 - udp_holepuncher - DEBUG - Name: viktor
+2016-03-06 14:13:56,499 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 14:13:56,499 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 14:13:56,500 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 14:13:56,505 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 14:13:56,506 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 14:13:56,506 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 14:13:56,507 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 60263)
+2016-03-06 14:13:58,618 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 14:13:58,618 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 14:13:59,875 - udp_holepuncher - DEBUG - Name: test
+2016-03-06 14:14:00,079 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 14:14:00,080 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 14:14:00,080 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 14:14:00,082 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 14:14:00,083 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 14:14:00,083 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 14:14:00,083 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 43050)
+2016-03-06 14:14:04,200 - udp_holepuncher - DEBUG - send connection request to server
+2016-03-06 14:14:04,201 - udp_holepuncher - DEBUG - Partner received: 127.0.0.1, 60263
+2016-03-06 14:14:04,201 - udp_holepuncher - DEBUG - Connection request from ('test', '127.0.0.1', 43050)
+2016-03-06 14:14:06,224 - udp_holepuncher - DEBUG - Agreed to client connection
+2016-03-06 14:14:06,225 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 14:14:06,225 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 14:14:06,225 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 43050	PARTNER: 127.0.0.1, 60263
+2016-03-06 14:14:06,225 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 60263	PARTNER: 127.0.0.1, 43050
+2016-03-06 14:14:06,225 - udp_holepuncher - DEBUG - Try to connect to viktor directly
+2016-03-06 14:14:06,225 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 14:14:06,225 - udp_holepuncher - DEBUG - Try to connect to test directly
+2016-03-06 14:14:06,225 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 60263)
+2016-03-06 14:14:06,225 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 14:14:06,226 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 43050)
+2016-03-06 14:14:06,226 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 43050)
+2016-03-06 14:14:06,226 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 60263)
+2016-03-06 14:14:53,841 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 14:14:53,842 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 14:14:55,200 - udp_holepuncher - DEBUG - Name: viktor
+2016-03-06 14:14:55,405 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 14:14:55,405 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 14:14:55,406 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 14:14:55,409 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 14:14:55,409 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 14:14:55,409 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 14:14:55,410 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 33193)
+2016-03-06 14:15:00,103 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 14:15:00,103 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 14:15:01,205 - udp_holepuncher - DEBUG - Name: test
+2016-03-06 14:15:01,434 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 14:15:01,434 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 14:15:01,435 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 14:15:01,437 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 14:15:01,437 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 14:15:01,437 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 14:15:01,438 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 35665)
+2016-03-06 14:15:04,461 - udp_holepuncher - DEBUG - send connection request to server
+2016-03-06 14:15:04,461 - udp_holepuncher - DEBUG - Partner received: 127.0.0.1, 33193
+2016-03-06 14:15:04,461 - udp_holepuncher - DEBUG - Connection request from ('test', '127.0.0.1', 35665)
+2016-03-06 14:15:06,350 - udp_holepuncher - DEBUG - Agreed to client connection
+2016-03-06 14:15:06,350 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 14:15:06,351 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 35665	PARTNER: 127.0.0.1, 33193
+2016-03-06 14:15:06,351 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 14:15:06,351 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 33193	PARTNER: 127.0.0.1, 35665
+2016-03-06 14:15:06,351 - udp_holepuncher - DEBUG - Try to connect to viktor directly
+2016-03-06 14:15:06,351 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 14:15:06,351 - udp_holepuncher - DEBUG - Try to connect to test directly
+2016-03-06 14:15:06,351 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 33193)
+2016-03-06 14:15:06,351 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 14:15:06,351 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 35665)
+2016-03-06 14:15:06,351 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 35665)
+2016-03-06 14:15:06,352 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 33193)
+2016-03-06 14:17:10,185 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 14:17:10,185 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 14:17:11,739 - udp_holepuncher - DEBUG - Name: 0viktor
+2016-03-06 14:17:12,000 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 14:17:12,000 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 14:17:12,000 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 14:17:12,003 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 14:17:12,003 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 14:17:12,003 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 14:17:12,004 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 45872)
+2016-03-06 14:17:13,793 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 14:17:13,793 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 14:17:14,960 - udp_holepuncher - DEBUG - Name: test
+2016-03-06 14:17:15,182 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 14:17:15,182 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 14:17:15,182 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 14:17:15,185 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 14:17:15,186 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 14:17:15,186 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 14:17:15,186 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 59970)
+2016-03-06 14:17:18,922 - udp_holepuncher - DEBUG - send connection request to server
+2016-03-06 14:17:18,923 - udp_holepuncher - DEBUG - Partner received: 127.0.0.1, 45872
+2016-03-06 14:17:18,923 - udp_holepuncher - DEBUG - Connection request from ('test', '127.0.0.1', 59970)
+2016-03-06 14:17:20,735 - udp_holepuncher - DEBUG - Agreed to client connection
+2016-03-06 14:17:20,735 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 14:17:20,735 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 14:17:20,736 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 45872	PARTNER: 127.0.0.1, 59970
+2016-03-06 14:17:20,736 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 59970	PARTNER: 127.0.0.1, 45872
+2016-03-06 14:17:20,736 - udp_holepuncher - DEBUG - Try to connect to 0viktor directly
+2016-03-06 14:17:20,736 - udp_holepuncher - DEBUG - Try to connect to test directly
+2016-03-06 14:17:20,736 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 14:17:20,737 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 45872)
+2016-03-06 14:17:20,737 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 14:17:20,737 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 59970)
+2016-03-06 14:17:20,737 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 59970)
+2016-03-06 14:17:20,738 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 45872)
+2016-03-06 14:19:53,876 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 14:19:53,876 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 14:19:55,362 - udp_holepuncher - DEBUG - Name: viktor
+2016-03-06 14:19:55,559 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 14:19:55,559 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 14:19:55,560 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 14:19:55,562 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 14:19:55,563 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 14:19:55,563 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 14:19:55,563 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 58897)
+2016-03-06 14:19:57,369 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 14:19:57,369 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 14:19:58,576 - udp_holepuncher - DEBUG - Name: test
+2016-03-06 14:19:58,789 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 14:19:58,789 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 14:19:58,789 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 14:19:58,792 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 14:19:58,792 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 14:19:58,792 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 14:19:58,793 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 44556)
+2016-03-06 14:20:02,250 - udp_holepuncher - DEBUG - send connection request to server
+2016-03-06 14:20:02,251 - udp_holepuncher - DEBUG - Partner received: 127.0.0.1, 58897
+2016-03-06 14:20:02,251 - udp_holepuncher - DEBUG - Connection request from ('test', '127.0.0.1', 44556)
+2016-03-06 14:20:03,407 - udp_holepuncher - DEBUG - Agreed to client connection
+2016-03-06 14:20:03,408 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 14:20:03,408 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 14:20:03,408 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 44556	PARTNER: 127.0.0.1, 58897
+2016-03-06 14:20:03,408 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 58897	PARTNER: 127.0.0.1, 44556
+2016-03-06 14:20:03,409 - udp_holepuncher - DEBUG - Try to connect to viktor directly
+2016-03-06 14:20:03,409 - udp_holepuncher - DEBUG - Try to connect to test directly
+2016-03-06 14:20:03,409 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 14:20:03,409 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 58897)
+2016-03-06 14:20:03,409 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 14:20:03,409 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 44556)
+2016-03-06 14:20:03,410 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 44556)
+2016-03-06 14:20:03,410 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 58897)
+2016-03-06 14:21:42,526 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 14:21:42,527 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 14:21:43,890 - udp_holepuncher - DEBUG - Name: viktor
+2016-03-06 14:21:44,081 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 14:21:44,081 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 14:21:44,081 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 14:21:44,084 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 14:21:44,084 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 14:21:44,084 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 14:21:44,085 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 49840)
+2016-03-06 14:21:48,337 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 14:21:48,337 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 14:21:49,645 - udp_holepuncher - DEBUG - Name: test
+2016-03-06 14:21:49,829 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 14:21:49,829 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 14:21:49,829 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 14:21:49,832 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 14:21:49,832 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 14:21:49,833 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 14:21:49,833 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 57915)
+2016-03-06 14:21:51,147 - udp_holepuncher - DEBUG - send connection request to server
+2016-03-06 14:21:51,147 - udp_holepuncher - DEBUG - Partner received: 127.0.0.1, 49840
+2016-03-06 14:21:59,203 - udp_holepuncher - DEBUG - send connection request to server
+2016-03-06 14:21:59,204 - udp_holepuncher - DEBUG - Partner received: 127.0.0.1, 49840
+2016-03-06 14:22:04,070 - udp_holepuncher - DEBUG - send connection request to server
+2016-03-06 14:22:04,070 - udp_holepuncher - DEBUG - Connection request from ('viktor', '127.0.0.1', 49840)
+2016-03-06 14:22:06,046 - udp_holepuncher - DEBUG - Agreed to client connection
+2016-03-06 14:22:06,046 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 14:22:06,047 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 57915	PARTNER: 127.0.0.1, 49840
+2016-03-06 14:22:06,047 - udp_holepuncher - DEBUG - Try to connect to viktor directly
+2016-03-06 14:22:06,047 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 14:22:06,048 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 49840)
+2016-03-06 14:22:07,048 - udp_holepuncher - DEBUG - Defined heuristic 2: same IP, Port+1
+2016-03-06 14:22:07,048 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 49841)
+2016-03-06 14:22:08,049 - udp_holepuncher - DEBUG - Defined heuristic 3: same IP, Port-1
+2016-03-06 14:22:08,049 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 49839)
+2016-03-06 14:22:11,053 - udp_holepuncher - DEBUG - No punchingpacket received
+2016-03-06 14:22:11,053 - udp_holepuncher - DEBUG - Try to connect to ('viktor', '127.0.0.1', 49840) over server
+2016-03-06 14:22:11,053 - udp_holepuncher - DEBUG - Defined heuristic 2: Relaying over server
+2016-03-06 14:22:11,053 - udp_holepuncher - DEBUG - Sending punchingpacket to ('', 45678)
+2016-03-06 14:22:11,054 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 45678)
+2016-03-06 14:22:19,556 - udp_holepuncher - DEBUG - send connection request to server
+2016-03-06 14:22:19,562 - udp_holepuncher - DEBUG - Connection request from ('viktor', '127.0.0.1', 49840)
+2016-03-06 14:22:21,414 - udp_holepuncher - DEBUG - Agreed to client connection
+2016-03-06 14:22:31,795 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 14:22:31,796 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 14:22:33,067 - udp_holepuncher - DEBUG - Name: viktor
+2016-03-06 14:22:33,264 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 14:22:33,265 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 14:22:33,265 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 14:22:33,269 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 14:22:33,269 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 14:22:33,270 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 14:22:33,270 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 50732)
+2016-03-06 14:22:39,645 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 14:22:39,646 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 14:22:42,183 - udp_holepuncher - DEBUG - Name: test
+2016-03-06 14:22:42,668 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 14:22:42,668 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 14:22:42,669 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 14:22:42,672 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 14:22:42,672 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 14:22:42,673 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 14:22:42,673 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 52357)
+2016-03-06 14:22:44,857 - udp_holepuncher - DEBUG - send connection request to server
+2016-03-06 14:22:44,857 - udp_holepuncher - DEBUG - Partner received: 127.0.0.1, 50732
+2016-03-06 14:22:44,857 - udp_holepuncher - DEBUG - Connection request from ('test', '127.0.0.1', 52357)
+2016-03-06 14:22:46,649 - udp_holepuncher - DEBUG - Agreed to client connection
+2016-03-06 14:22:46,649 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 14:22:46,649 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 14:22:46,650 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 50732	PARTNER: 127.0.0.1, 52357
+2016-03-06 14:22:46,650 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 52357	PARTNER: 127.0.0.1, 50732
+2016-03-06 14:22:46,650 - udp_holepuncher - DEBUG - Try to connect to test directly
+2016-03-06 14:22:46,650 - udp_holepuncher - DEBUG - Try to connect to viktor directly
+2016-03-06 14:22:46,650 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 14:22:46,650 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 14:22:46,650 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 50732)
+2016-03-06 14:22:46,650 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 52357)
+2016-03-06 14:22:46,651 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 52357)
+2016-03-06 14:22:47,651 - udp_holepuncher - DEBUG - Defined heuristic 2: same IP, Port+1
+2016-03-06 14:22:47,651 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 50733)
+2016-03-06 14:22:48,651 - udp_holepuncher - DEBUG - Defined heuristic 3: same IP, Port-1
+2016-03-06 14:22:48,651 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 50731)
+2016-03-06 14:22:51,654 - udp_holepuncher - DEBUG - No punchingpacket received
+2016-03-06 14:22:51,654 - udp_holepuncher - DEBUG - Try to connect to ('viktor', '127.0.0.1', 50732) over server
+2016-03-06 14:22:51,654 - udp_holepuncher - DEBUG - Defined heuristic 2: Relaying over server
+2016-03-06 14:22:51,654 - udp_holepuncher - DEBUG - Sending punchingpacket to ('', 45678)
+2016-03-06 14:22:51,655 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 45678)
+2016-03-06 14:23:02,763 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 14:23:02,763 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 14:23:08,442 - udp_holepuncher - DEBUG - Name: viktor
+2016-03-06 14:23:08,656 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 14:23:08,656 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 14:23:08,657 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 14:23:08,659 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 14:23:08,660 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 14:23:08,660 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 14:23:08,661 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 44988)
+2016-03-06 14:23:13,081 - udp_holepuncher - DEBUG - Started new Hole Puncher instance.
+2016-03-06 14:23:13,081 - udp_holepuncher - DEBUG - Initial setup completed
+2016-03-06 14:23:15,209 - udp_holepuncher - DEBUG - Name: test
+2016-03-06 14:23:15,438 - udp_holepuncher - DEBUG - Server: , 45678
+2016-03-06 14:23:15,439 - udp_holepuncher - DEBUG - Socket setup completed
+2016-03-06 14:23:15,439 - udp_holepuncher - DEBUG - ControllerThread setup completed
+2016-03-06 14:23:15,441 - udp_holepuncher - DEBUG - ReceiverThread setup completed
+2016-03-06 14:23:15,442 - udp_holepuncher - DEBUG - HeartbeatThread setup completed
+2016-03-06 14:23:15,442 - udp_holepuncher - DEBUG - Heartbeater started
+2016-03-06 14:23:15,442 - udp_holepuncher - DEBUG - IP address on socket: ('0.0.0.0', 40735)
+2016-03-06 14:23:30,104 - udp_holepuncher - DEBUG - send connection request to server
+2016-03-06 14:23:30,104 - udp_holepuncher - DEBUG - Partner received: 127.0.0.1, 44988
+2016-03-06 14:23:30,104 - udp_holepuncher - DEBUG - Connection request from ('test', '127.0.0.1', 40735)
+2016-03-06 14:23:31,742 - udp_holepuncher - DEBUG - Agreed to client connection
+2016-03-06 14:23:31,743 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 14:23:31,743 - udp_holepuncher - DEBUG - Received start to test firewall
+2016-03-06 14:23:31,743 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 40735	PARTNER: 127.0.0.1, 44988
+2016-03-06 14:23:31,743 - udp_holepuncher - DEBUG -  Topology probably looks like this:
+					Server: , 45678
+                                                 +-------+
+                                                 |SERVER |
+                                                 +-------+
+                                                     |
+                                                     |
+                                     +---------------+-----------+
+                                    +-|                         |-+
+                                    +-+                         +-+
+                                     |                           |
+                                     |                           |
+                                   +---+                     +-------+
+                                   |YOU|                     |PARTNER|
+                                   +---+                     +-------+
+                                 YOU: 127.0.0.1, 44988	PARTNER: 127.0.0.1, 40735
+2016-03-06 14:23:31,743 - udp_holepuncher - DEBUG - Try to connect to viktor directly
+2016-03-06 14:23:31,743 - udp_holepuncher - DEBUG - Try to connect to test directly
+2016-03-06 14:23:31,743 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 14:23:31,743 - udp_holepuncher - DEBUG - Defined heuristic 1: same IP, same Port
+2016-03-06 14:23:31,743 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 40735)
+2016-03-06 14:23:31,743 - udp_holepuncher - DEBUG - Sending punchingpacket to ('127.0.0.1', 44988)
+2016-03-06 14:23:31,744 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 44988)
+2016-03-06 14:23:31,744 - udp_holepuncher - DEBUG - Received punchingpacket from ('127.0.0.1', 40735)
