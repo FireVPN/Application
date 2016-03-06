@@ -1,1 +1,8 @@
 __pycharm__/*
+*.xml
+*/*.xml
+./idea
+./idea/*.xml
+.bash_history
+.gitconfig
+
