@@ -1,5 +1,6 @@
 from PyQt4 import QtGui
 from PyQt4.QtCore import QThread, SIGNAL
+import PyQt4.QtCore
 import sys
 import socket
 import widget
@@ -7,13 +8,11 @@ import pickle
 import logging
 import datetime
 import proxy
-import threading
-
 
 SERV_IP = "127.0.0.1"
 SERV_PORT = 45678
 vpn_side = False
-logger = logging.getLogger('udp_holepuncher')
+logger = logging.getLogger('FireVPN')
 CONNECTED = False
 CONNECTED_PEER = None
 
@@ -59,13 +58,6 @@ class CThread(QThread):
             print ("Could not send connect.")
 
     def testFW(self, heuristic, ip, port):
-        """
-        0: received
-        1: received+1
-        2: received-1
-        3: serveri
-        """
-
         if heuristic not in (0, 1, 2, 3):
             return
         if heuristic is 0:
@@ -132,9 +124,10 @@ class RThread(QThread):
             try:
                 if (answer == 0 and
                    (datetime.datetime.now()-timestamp).total_seconds() >= 3):
-                    logger.exception("Server unreachable")
-                    # Ugly exit
-                    sys.exit(1)
+                    # Server unreachable
+                    logger.debug("Server unreachable")
+                    self.emit(SIGNAL('closeApplication(PyQt_PyObject)'), 'Server Unreachable')
+                    break
                 if (fw_test == 1 and
                    (datetime.datetime.now()-timestamp).total_seconds() >= 5):
                     # timeout for server connection
@@ -220,30 +213,36 @@ class HeartbeatThread(QThread):
 
 class Interface(QtGui.QWidget, widget.Ui_Widget):
     def __init__(self):
+        logger.debug('Started new Hole Puncher instance.')
         super(self.__class__, self).__init__()
         global logger
-        self.setupUi(self)
+        global SERV_IP
 
-        logger.debug('Started new Hole Puncher instance.')
-        # disable buttons
-        self.connectButton.setEnabled(False)
+        self.setupUi(self)
+        logger.debug("Initial setup completed")
 
         # connect buttons
         self.connectButton.clicked.connect(self.connectToClient)
-        logger.debug("Initial setup completed")
 
-        # Name Dialog
-        self.name = self.showNameDialog()
-        logger.debug("Name: "+self.name)
-        # Server Dialog
-        global SERV_IP
-        SERV_IP = self.showServerDialog()
-        logger.debug("Server: "+SERV_IP+", "+str(SERV_PORT))
+        preferences = widget.Ui_Dialog.getPreferences()
+
+        self.name = preferences[0]
+        logger.debug("Name: %s" % self.name)
+
+        SERV_IP = preferences[1]
+        logger.debug("Server: %s, %s" % (SERV_IP, str(SERV_PORT)))
+
+        self.tunnel = preferences[2]
+        logger.debug("Tunnel: %s" % self.tunnel)
+
+        self.protocol = preferences[3]
+        logger.debug("Protokoll: %s" % self.protocol)
+
 
         try:
             self.sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         except:
-            logger.exception("Socket setup failed")
+            logger.debug("Socket setup failed")
             sys.exit(1)
         logger.debug("Socket setup completed")
 
@@ -255,6 +254,9 @@ class Interface(QtGui.QWidget, widget.Ui_Widget):
         # Receiver
         self.receiver = RThread(self.sock)
         logger.debug("ReceiverThread setup completed")
+        self.connect(self.receiver,
+                     SIGNAL("closeApplication(PyQt_PyObject)"),
+                     self.closeApplication)
         self.connect(self.receiver,
                      SIGNAL("add_names(PyQt_PyObject)"),
                      self.add_names)
@@ -304,35 +306,19 @@ class Interface(QtGui.QWidget, widget.Ui_Widget):
             self.connectButton.setEnabled(False)
             self.comboBox.setEnabled(False)
 
-    def showNameDialog(self):
-        text, ok = QtGui.QInputDialog.getText(self,
-                                              'UDP Hole Puncher NG',
-                                              'Geben Sie einen Nicknamen ein:')
-
-        if not ok:
-            sys.exit()
-        return text
-
-    def showServerDialog(self):
-        text, ok = QtGui.QInputDialog.getText(self,
-                                              'UDP Hole Puncher NG',
-                                              'Geben Sie den Server an:')
-        if not ok:
-            sys.exit()
-        return text
-
     def showNamePresentDialog(self):
-        reply = QtGui.QMessageBox.question(self, 'UDP Hole Puncher NG',
-                                           'Der Nickname ist leider'
-                                           ' schon vergeben! Wollen Sie einen'
-                                           ' Neuen wählen oder Beenden?',
-                                           'Neu',
-                                           'Beenden')
-        if reply == 0:
-            self.newInit()
-        else:
-            self.controller.__del__()
-            sys.exit()
+        # reply = QtGui.QMessageBox.question(self, 'UDP Hole Puncher NG',
+        #                                    'Der Nickname ist leider'
+        #                                    ' schon vergeben! Wollen Sie einen'
+        #                                    ' Neuen wählen oder Beenden?',
+        #                                    'Neu',
+        #                                    'Beenden')
+        # if reply == 0:
+        #     self.newInit()
+        # else:
+        #     self.controller.__del__()
+        #     sys.exit()
+        self.closeApplication("Name bereits ins Verwendung!")
 
     def showConnectionDialog(self, partner):
         msg = "Der Client " + partner[0]
@@ -349,6 +335,13 @@ class Interface(QtGui.QWidget, widget.Ui_Widget):
         else:
             logger.debug("Client connection refused")
 
+    def closeApplication(self, msg):
+        QtGui.QMessageBox.information(self, "Information", msg)
+        self.controller.quit()
+        self.receiver.quit()
+        sys.exit(1)
+
+
     def testFW(self, tested):
         if self.partner is None:
             return
@@ -361,13 +354,8 @@ class Interface(QtGui.QWidget, widget.Ui_Widget):
         if not tested:
             logger.debug("Try to connect to "+str(self.partner[0]) + " directly")
             for j in range(0, 3, 1):
-                # for i in range(0, 5, 1):
                 if not CONNECTED:
-                    print (j)
                     self.controller.testFW(j, self.partner[1], self.partner[2])
-                # if CONNECTED_PEER is not None and j == 0:
-                #     self.controller.testFW(j, CONNECTED_PEER[0], CONNECTED_PEER[1])
-                #     break
         else:
             logger.debug("Try to connect to "+ str(self.partner) + " over server")
             self.controller.testFW(3, self.partner[1], self.partner[2])
@@ -390,39 +378,27 @@ class Interface(QtGui.QWidget, widget.Ui_Widget):
 
 def setupLogging():
     global logger
-    # logging
     filename = "FireVPN.log"
-
-    # StreamHandler
     streamHandler = logging.StreamHandler()
-
-    # FileHandler
     fileHandler = logging.FileHandler(filename)
-
-    # formatting
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
     streamHandler.setFormatter(formatter)
     fileHandler.setFormatter(formatter)
-
-    # add handler
     logger.addHandler(streamHandler)
     logger.addHandler(fileHandler)
-
     logger.setLevel(logging.DEBUG)
-
     streamHandler.setLevel(logging.DEBUG)
     fileHandler.setLevel(logging.DEBUG)
 
-
 def main():
-    app = QtGui.QApplication(sys.argv)  # A new instance of QApplication
-    app.setWindowIcon(QtGui.QIcon('icon.png'))  # Set Window Icon
+    app = QtGui.QApplication(sys.argv)
+    app.setWindowIcon(QtGui.QIcon('icon.png'))
     app.setStyle('cleanlook')
-    setupLogging() # set up logging
-    form = Interface()  # We set the form to be our ExampleApp (design)
-    form.show()  # Show the form
-    app.exec_()  # and execute the app
+    setupLogging()
+    form = Interface()
+    form.show()
+    app.exec_()
 
 
 if __name__ == '__main__':
-    main()  # run the main function
+    main()
