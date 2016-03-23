@@ -32,21 +32,20 @@ class CThread(QThread):
     def connectToServer(self):
         try:
             self.socket.sendto(('L'+';'+self.name).encode('utf-8'), self.SERV)
-            # debug(self, "Login sent to Server")
         except:
-            # exception(self, "Could not send login")
+            logger.debug("Could not send login")
             sys.exit(1)
 
     def connectToClient(self, partner):
         try:
             global vpn_side
-            logger.debug("send connection request to server")
+            logger.debug("Send connection request to server")
             self.socket.sendto(('C'+';'+self.name + ';' +
                                partner)
                                .encode('utf-8'), self.SERV)
             vpn_side = True
         except:
-            print ("Could not send connect.")
+            logger.debug("Could not send connect.")
 
     def agree(self, partner):
         try:
@@ -55,27 +54,27 @@ class CThread(QThread):
                                .encode('utf-8'), self.SERV)
             vpn_side = False
         except:
-            print ("Could not send connect.")
+            print ("Could not send connect")
 
     def testFW(self, heuristic, ip, port):
         if heuristic not in (0, 1, 2, 3):
             return
         if heuristic is 0:
-            logger.debug("""Defined heuristic 1: same IP, same Port""")
+            logger.debug("Defined heuristic 1: same IP, same Port")
             partner = (ip, port)
         elif heuristic is 1:
-            logger.debug("""Defined heuristic 2: same IP, Port+1""")
+            logger.debug("Defined heuristic 2: same IP, Port+1")
             partner = (ip, port+1)
         elif heuristic is 2:
-            logger.debug("""Defined heuristic 3: same IP, Port-1""")
+            logger.debug("Defined heuristic 3: same IP, Port-1")
             partner = (ip, port-1)
         elif heuristic is 3:
-            logger.debug("""Defined heuristic 2: Relaying over server""")
+            logger.debug("Defined heuristic 4: Relaying over server")
             partner = self.SERV
-        logger.debug("Sending punchingpacket to "+ str(partner))
+        logger.debug("Sending punchingpacket to %s" % str(partner))
         self.socket.sendto(('X'+';'+self.name + ';')
                            .encode('utf-8'), partner)
-        self.sleep(1)
+        self.sleep(2)
 
 
 class PSThread(QThread):
@@ -143,7 +142,7 @@ class RThread(QThread):
 
                 if indicator is 'N':
                     answer = 1
-                    self.emit(SIGNAL('showNamePresentDialog()'))
+                    self.emit(SIGNAL('showNamePresent()'))
                 elif indicator is 'R':
                     answer = 1
                     self.names = pickle.loads(receivedData[1]
@@ -260,8 +259,8 @@ class Interface(QtGui.QWidget, widget.Ui_Widget):
         self.connect(self.receiver,
                      SIGNAL("add_names(PyQt_PyObject)"),
                      self.add_names)
-        self.connect(self.receiver, SIGNAL("showNamePresentDialog()"),
-                     self.showNamePresentDialog)
+        self.connect(self.receiver, SIGNAL("showNamePresent()"),
+                     self.showNamePresent)
         self.connect(self.receiver,
                      SIGNAL("showConnectionDialog(PyQt_PyObject)"),
                      self.showConnectionDialog)
@@ -306,23 +305,11 @@ class Interface(QtGui.QWidget, widget.Ui_Widget):
             self.connectButton.setEnabled(False)
             self.comboBox.setEnabled(False)
 
-    def showNamePresentDialog(self):
-        # reply = QtGui.QMessageBox.question(self, 'UDP Hole Puncher NG',
-        #                                    'Der Nickname ist leider'
-        #                                    ' schon vergeben! Wollen Sie einen'
-        #                                    ' Neuen wählen oder Beenden?',
-        #                                    'Neu',
-        #                                    'Beenden')
-        # if reply == 0:
-        #     self.newInit()
-        # else:
-        #     self.controller.__del__()
-        #     sys.exit()
+    def showNamePresent(self):
         self.closeApplication("Name bereits ins Verwendung!")
 
     def showConnectionDialog(self, partner):
-        msg = "Der Client " + partner[0]
-        msg += " möchte eine Verbindung aufbauen. Akzeptieren?"
+        msg = "Der Client %s möchte eine Verbindung aufbauen. Akzeptieren?" % partner[0]
         reply = QtGui.QMessageBox.question(self, 'UDP Hole Puncher NG',
                                            msg,
                                            "Annehmen",
@@ -341,18 +328,12 @@ class Interface(QtGui.QWidget, widget.Ui_Widget):
         self.receiver.quit()
         sys.exit(1)
 
-
     def testFW(self, tested):
         if self.partner is None:
             return
 
-        if self.proxy_test is not None:
-            self.connectButton.setEnabled(False)
-            self.comboBox.setEnabled(False)
-            return
-
         if not tested:
-            logger.debug("Try to connect to "+str(self.partner[0]) + " directly")
+            logger.debug("Try to connect to %s directly", str(self.partner[0]))
             for j in range(0, 3, 1):
                 if not CONNECTED:
                     self.controller.testFW(j, self.partner[1], self.partner[2])
@@ -363,7 +344,13 @@ class Interface(QtGui.QWidget, widget.Ui_Widget):
 
     def received(self, partner):
         global CONNECTED
-        self.connectButton.setEnabled(False)
+        if CONNECTED:
+            return
+        self.receiver.quit()
+        self.controller.quit()
+        self.sock.sendto(('X'+';'+self.name + ';')
+                           .encode('utf-8'), partner)
+        self.connectButton.setEnabledrun(False)
         self.comboBox.setEnabled(False)
         CONNECTED = True
         print ("now start proxy as server: ", vpn_side)
