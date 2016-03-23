@@ -57,6 +57,8 @@ class CThread(QThread):
             print ("Could not send connect")
 
     def testFW(self, heuristic, ip, port):
+        if CONNECTED:
+            return
         if heuristic not in (0, 1, 2, 3):
             return
         if heuristic is 0:
@@ -128,7 +130,8 @@ class RThread(QThread):
                     self.emit(SIGNAL('closeApplication(PyQt_PyObject)'), 'Server Unreachable')
                     break
                 if (fw_test == 1 and
-                   (datetime.datetime.now()-timestamp).total_seconds() >= 5):
+                   (datetime.datetime.now()-timestamp).total_seconds() >= 5 and
+                    not CONNECTED):
                     # timeout for server connection
                    logger.debug ("No punchingpacket received")
                    self.emit(SIGNAL('testingFW(PyQt_PyObject)'), True)
@@ -182,11 +185,9 @@ class RThread(QThread):
                                  """+ "YOU: " + receivedData[1] + "\tPARTNER: " + receivedData[2])
                     self.emit(SIGNAL('testingFW(PyQt_PyObject)'), False)
                 elif indicator is 'X':
-                    CONNECTED = True
                     CONNECTED_PEER = (host, port)
                     logger.debug("Received punchingpacket from "+str((host, port)))
                     fw_test = 0
-                    # Absicherung Überprüfen ob richtige IP nötig
                     self.emit(SIGNAL('received(PyQt_PyObject)'),
                               (host, port))
 
@@ -346,11 +347,12 @@ class Interface(QtGui.QWidget, widget.Ui_Widget):
         global CONNECTED
         if CONNECTED:
             return
+        print ("First")
         self.receiver.quit()
         self.controller.quit()
         self.sock.sendto(('X'+';'+self.name + ';')
                            .encode('utf-8'), partner)
-        self.connectButton.setEnabledrun(False)
+        self.connectButton.setEnabled(False)
         self.comboBox.setEnabled(False)
         CONNECTED = True
         print ("now start proxy as server: ", vpn_side)
