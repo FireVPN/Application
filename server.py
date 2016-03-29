@@ -35,18 +35,18 @@ class Receiver(threading.Thread):
                 if host == l[1] and port == l[2]:
                     name = l[0]
 
-            if indicator == "M":
-                for c in connections:
-                    if name == c[0]:
-                        for l in loginsToServer:
-                            if l[0] == c[1]:
-                                self.sock.sendto(data, (l[1], l[2]))
-                                continue
-                    elif name == c[1]:
-                        for l in loginsToServer:
-                            if l[0] == c[0]:
-                                self.sock.sendto(data, (l[1], l[2]))
-                                continue
+
+            for c in connections:
+                if name == c[0]:
+                    for l in loginsToServer:
+                        if l[0] == c[1]:
+                            self.sock.sendto(data, (l[1], l[2]))
+                            continue
+                elif name == c[1]:
+                    for l in loginsToServer:
+                        if l[0] == c[0]:
+                            self.sock.sendto(data, (l[1], l[2]))
+                            continue
 
             try:
                 receivedData = data.decode('utf-8').split(';')
