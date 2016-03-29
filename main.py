@@ -212,6 +212,9 @@ class HeartbeatThread(QThread):
 
 
 class Interface(QtGui.QWidget, widget.Ui_Widget):
+    """
+     BIND
+    """
     def __init__(self):
         logger.debug('Started new Hole Puncher instance.')
         super(self.__class__, self).__init__()
@@ -241,6 +244,7 @@ class Interface(QtGui.QWidget, widget.Ui_Widget):
 
         try:
             self.sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+            self.sock.bind(("0.0.0.0", 13450))
         except:
             logger.debug("Socket setup failed")
             sys.exit(1)

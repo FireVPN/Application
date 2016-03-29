@@ -853,3 +853,78 @@
 2016-03-23 15:33:46,801 - FireVPN - DEBUG - HeartbeatThread setup completed
 2016-03-23 15:33:46,802 - FireVPN - DEBUG - Heartbeater started
 2016-03-23 15:33:46,802 - FireVPN - DEBUG - IP address on socket: ('0.0.0.0', 59484)
+2016-03-23 16:23:54,364 - FireVPN - DEBUG - Started new Hole Puncher instance.
+2016-03-23 16:23:54,367 - FireVPN - DEBUG - Initial setup completed
+2016-03-23 16:24:05,028 - FireVPN - DEBUG - Name: 
+2016-03-23 16:24:05,029 - FireVPN - DEBUG - Server: , 45678
+2016-03-23 16:24:05,029 - FireVPN - DEBUG - Tunnel: IPv4
+2016-03-23 16:24:05,029 - FireVPN - DEBUG - Protokoll: UDP
+2016-03-23 16:24:05,029 - FireVPN - DEBUG - Socket setup completed
+2016-03-23 16:24:05,030 - FireVPN - DEBUG - ControllerThread setup completed
+2016-03-23 16:24:05,032 - FireVPN - DEBUG - ReceiverThread setup completed
+2016-03-23 16:24:05,032 - FireVPN - DEBUG - HeartbeatThread setup completed
+2016-03-23 16:24:05,032 - FireVPN - DEBUG - Heartbeater started
+2016-03-23 16:24:05,032 - FireVPN - DEBUG - IP address on socket: ('0.0.0.0', 47551)
+2016-03-23 16:24:41,356 - FireVPN - DEBUG - Started new Hole Puncher instance.
+2016-03-23 16:24:41,358 - FireVPN - DEBUG - Initial setup completed
+2016-03-23 16:24:45,939 - FireVPN - DEBUG - Name: 
+2016-03-23 16:24:45,939 - FireVPN - DEBUG - Server: , 45678
+2016-03-23 16:24:45,940 - FireVPN - DEBUG - Tunnel: IPv4
+2016-03-23 16:24:45,940 - FireVPN - DEBUG - Protokoll: UDP
+2016-03-23 16:24:45,940 - FireVPN - DEBUG - Socket setup completed
+2016-03-23 16:24:45,940 - FireVPN - DEBUG - ControllerThread setup completed
+2016-03-23 16:24:45,943 - FireVPN - DEBUG - ReceiverThread setup completed
+2016-03-23 16:24:45,944 - FireVPN - DEBUG - HeartbeatThread setup completed
+2016-03-23 16:24:45,944 - FireVPN - DEBUG - Heartbeater started
+2016-03-23 16:24:45,944 - FireVPN - DEBUG - IP address on socket: ('0.0.0.0', 43315)
+2016-03-23 16:24:48,947 - FireVPN - DEBUG - Server unreachable
+2016-03-23 16:24:52,919 - FireVPN - DEBUG - Started new Hole Puncher instance.
+2016-03-23 16:24:52,921 - FireVPN - DEBUG - Initial setup completed
+2016-03-23 16:24:54,315 - FireVPN - DEBUG - Name: viktor
+2016-03-23 16:24:54,316 - FireVPN - DEBUG - Server: , 45678
+2016-03-23 16:24:54,316 - FireVPN - DEBUG - Tunnel: IPv4
+2016-03-23 16:24:54,316 - FireVPN - DEBUG - Protokoll: UDP
+2016-03-23 16:24:54,316 - FireVPN - DEBUG - Socket setup completed
+2016-03-23 16:24:54,316 - FireVPN - DEBUG - ControllerThread setup completed
+2016-03-23 16:24:54,319 - FireVPN - DEBUG - ReceiverThread setup completed
+2016-03-23 16:24:54,319 - FireVPN - DEBUG - HeartbeatThread setup completed
+2016-03-23 16:24:54,319 - FireVPN - DEBUG - Heartbeater started
+2016-03-23 16:24:54,319 - FireVPN - DEBUG - IP address on socket: ('0.0.0.0', 48609)
+2016-03-23 16:24:57,323 - FireVPN - DEBUG - Server unreachable
+2016-03-23 16:28:35,699 - FireVPN - DEBUG - Started new Hole Puncher instance.
+2016-03-23 16:28:35,704 - FireVPN - DEBUG - Initial setup completed
+2016-03-23 16:28:37,354 - FireVPN - DEBUG - Name: viktor
+2016-03-23 16:28:37,355 - FireVPN - DEBUG - Server: , 45678
+2016-03-23 16:28:37,355 - FireVPN - DEBUG - Tunnel: IPv4
+2016-03-23 16:28:37,356 - FireVPN - DEBUG - Protokoll: UDP
+2016-03-23 16:28:37,356 - FireVPN - DEBUG - Socket setup completed
+2016-03-23 16:28:37,357 - FireVPN - DEBUG - ControllerThread setup completed
+2016-03-23 16:28:37,363 - FireVPN - DEBUG - ReceiverThread setup completed
+2016-03-23 16:28:37,363 - FireVPN - DEBUG - HeartbeatThread setup completed
+2016-03-23 16:28:37,363 - FireVPN - DEBUG - Heartbeater started
+2016-03-23 16:28:37,364 - FireVPN - DEBUG - IP address on socket: ('0.0.0.0', 33327)
+2016-03-23 16:28:40,367 - FireVPN - DEBUG - Server unreachable
+2016-03-29 11:11:46,300 - FireVPN - DEBUG - Started new Hole Puncher instance.
+2016-03-29 11:11:46,309 - FireVPN - DEBUG - Initial setup completed
+2016-03-29 11:11:54,813 - FireVPN - DEBUG - Name: Partner
+2016-03-29 11:11:54,814 - FireVPN - DEBUG - Server: 127.0.0.1, 45678
+2016-03-29 11:11:54,814 - FireVPN - DEBUG - Tunnel: IPv4
+2016-03-29 11:11:54,814 - FireVPN - DEBUG - Protokoll: UDP
+2016-03-29 11:11:54,815 - FireVPN - DEBUG - Socket setup completed
+2016-03-29 11:11:54,815 - FireVPN - DEBUG - ControllerThread setup completed
+2016-03-29 11:11:54,819 - FireVPN - DEBUG - ReceiverThread setup completed
+2016-03-29 11:11:54,820 - FireVPN - DEBUG - HeartbeatThread setup completed
+2016-03-29 11:11:54,821 - FireVPN - DEBUG - Heartbeater started
+2016-03-29 11:11:54,821 - FireVPN - DEBUG - IP address on socket: ('0.0.0.0', 39390)
+2016-03-29 11:12:01,055 - FireVPN - DEBUG - Started new Hole Puncher instance.
+2016-03-29 11:12:01,058 - FireVPN - DEBUG - Initial setup completed
+2016-03-29 11:12:15,935 - FireVPN - DEBUG - Name: Kollege
+2016-03-29 11:12:15,936 - FireVPN - DEBUG - Server: 127.0.0.1, 45678
+2016-03-29 11:12:15,936 - FireVPN - DEBUG - Tunnel: IPv4
+2016-03-29 11:12:15,936 - FireVPN - DEBUG - Protokoll: UDP
+2016-03-29 11:12:15,937 - FireVPN - DEBUG - Socket setup completed
+2016-03-29 11:12:15,937 - FireVPN - DEBUG - ControllerThread setup completed
+2016-03-29 11:12:15,940 - FireVPN - DEBUG - ReceiverThread setup completed
+2016-03-29 11:12:15,941 - FireVPN - DEBUG - HeartbeatThread setup completed
+2016-03-29 11:12:15,941 - FireVPN - DEBUG - Heartbeater started
+2016-03-29 11:12:15,941 - FireVPN - DEBUG - IP address on socket: ('0.0.0.0', 51593)
