@@ -30,8 +30,6 @@ class Receiver(threading.Thread):
                 continue
             host = addr[0]
             port = addr[1]
-            receivedData = data.decode('utf-8').split(';')
-            indicator = receivedData[0]
             name = None
             for l in loginsToServer:
                 if host == l[1] and port == l[2]:
@@ -49,6 +47,12 @@ class Receiver(threading.Thread):
                             if l[0] == c[0]:
                                 self.sock.sendto(data, (l[1], l[2]))
                                 continue
+
+            try:
+                receivedData = data.decode('utf-8').split(';')
+                indicator = receivedData[0]
+            except:
+                continue
 
             elif indicator is 'L':
                 s = False
@@ -92,6 +96,10 @@ class Receiver(threading.Thread):
                                     hDiscard = h
                             heartbeats.discard(hDiscard)
                             print (discard[0], "closed the connection.")
+                        for c in connections:
+                            if c[0] == n[0] or c[1] == n[0]:
+                                cDiscard = c
+                        connections.discard(cDiscard)
                         self.broadcast(names)
                         break
 

@@ -212,13 +212,9 @@ class HeartbeatThread(QThread):
 
 
 class Interface(QtGui.QWidget, widget.Ui_Widget):
-    """
-     BIND
-    """
     def __init__(self):
         logger.debug('Started new Hole Puncher instance.')
         super(self.__class__, self).__init__()
-        global logger
         global SERV_IP
 
         self.setupUi(self)
@@ -244,7 +240,7 @@ class Interface(QtGui.QWidget, widget.Ui_Widget):
 
         try:
             self.sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-            self.sock.bind(("0.0.0.0", 13450))
+            #self.sock.bind(("0.0.0.0", 13450))
         except:
             logger.debug("Socket setup failed")
             sys.exit(1)
@@ -351,33 +347,35 @@ class Interface(QtGui.QWidget, widget.Ui_Widget):
         global CONNECTED
         if CONNECTED:
             return
-        print ("First")
         self.receiver.quit()
-        self.controller.quit()
-        self.sock.sendto(('X'+';'+self.name + ';')
-                           .encode('utf-8'), partner)
-        self.connectButton.setEnabled(False)
+        if partner is not (SERV_IP, SERV_PORT):
+            self.heartbeater.quit()
+            self.controller.__del__()
+        else:
+            self.controller.quit()
+        self.connectButton.setText("Trennen")
+        self.comboBox.clear()
+        self.comboBox.addItem("Mit IP %s, Port %s verbunden." % (partner[0], str(partner[1])))
         self.comboBox.setEnabled(False)
         CONNECTED = True
-        print ("now start proxy as server: ", vpn_side)
         self.proxy = proxy.Proxy(self.sock, partner, vpn_side)
         self.proxy_rec = PRThread(self.proxy)
         self.proxy_sen = PSThread(self.proxy)
         self.proxy_rec.start()
         self.proxy_sen.start()
 
+
     def changePartner(self, partner):
         self.partner = partner
 
 def setupLogging():
-    global logger
     filename = "FireVPN.log"
     streamHandler = logging.StreamHandler()
     fileHandler = logging.FileHandler(filename)
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
     streamHandler.setFormatter(formatter)
     fileHandler.setFormatter(formatter)
-    logger.addHandler(streamHandler)
+    #logger.addHandler(streamHandler)
     logger.addHandler(fileHandler)
     logger.setLevel(logging.DEBUG)
     streamHandler.setLevel(logging.DEBUG)

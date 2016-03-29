@@ -20,9 +20,7 @@ class Proxy():
             data, addr = self.socket_int.recvfrom(4096)
             if(not self.server):
                 self.vpn_client_port = addr[1]
-            print (self.partner)
             self.socket_ext.sendto(data, self.partner)
-            print("int to ext")
         except:
             pass
 
@@ -33,7 +31,6 @@ class Proxy():
                 self.socket_int.sendto(data, ("localhost", self.vpn_client_port))
             else:
                 self.socket_int.sendto(data, LOCALVPN)
-            print("ext to int")
         except:
             pass
 
