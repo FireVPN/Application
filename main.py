@@ -7,6 +7,7 @@ import widget
 import pickle
 import logging
 import datetime
+import subprocess
 import proxy
 
 SERV_IP = "127.0.0.1"
@@ -105,11 +106,12 @@ class PRThread(QThread):
 
 
 class RThread(QThread):
-    def __init__(self, socket):
+    def __init__(self, socket, name):
         QThread.__init__(self)
         global logger
         self.SERV = (SERV_IP, SERV_PORT)
         self.socket = socket
+        self.name = name
         self.socket.settimeout(1)
 
     def __del__(self):
@@ -131,7 +133,7 @@ class RThread(QThread):
                     break
                 if (fw_test == 1 and
                    (datetime.datetime.now()-timestamp).total_seconds() >= 5 and
-                    not CONNECTED):
+                    CONNECTED_PEER == None):
                     # timeout for server connection
                    logger.debug ("No punchingpacket received")
                    self.emit(SIGNAL('testingFW(PyQt_PyObject)'), True)
@@ -186,7 +188,8 @@ class RThread(QThread):
                     self.emit(SIGNAL('testingFW(PyQt_PyObject)'), False)
                 elif indicator is 'X':
                     CONNECTED_PEER = (host, port)
-                    logger.debug("Received punchingpacket from "+str((host, port)))
+                    self.socket.sendto(('X'+';'+self.name+ ';')
+                           .encode('utf-8'), (host,port))
                     fw_test = 0
                     self.emit(SIGNAL('received(PyQt_PyObject)'),
                               (host, port))
@@ -220,7 +223,7 @@ class Interface(QtGui.QWidget, widget.Ui_Widget):
         self.setupUi(self)
         logger.debug("Initial setup completed")
 
-        # connect buttons
+        # connect button
         self.connectButton.clicked.connect(self.connectToClient)
 
         preferences = widget.Ui_Dialog.getPreferences()
@@ -252,7 +255,7 @@ class Interface(QtGui.QWidget, widget.Ui_Widget):
         self.controller.connectToServer()
 
         # Receiver
-        self.receiver = RThread(self.sock)
+        self.receiver = RThread(self.sock, self.name)
         logger.debug("ReceiverThread setup completed")
         self.connect(self.receiver,
                      SIGNAL("closeApplication(PyQt_PyObject)"),
@@ -307,6 +310,7 @@ class Interface(QtGui.QWidget, widget.Ui_Widget):
             self.comboBox.setEnabled(False)
 
     def showNamePresent(self):
+        logger.debug("Name already in use.")
         self.closeApplication("Name bereits ins Verwendung!")
 
     def showConnectionDialog(self, partner):
@@ -347,15 +351,15 @@ class Interface(QtGui.QWidget, widget.Ui_Widget):
         global CONNECTED
         if CONNECTED:
             return
-        self.receiver.quit()
-        if partner is not (SERV_IP, SERV_PORT):
-            self.heartbeater.quit()
-            self.controller.__del__()
-        else:
-            self.controller.quit()
+        logger.debug("Received punchingpacket from "+partner[0]+", "+str(partner[1]))
+        self.receiver.terminate()
+        if partner[0] != SERV_IP or partner[1] != SERV_PORT:
+            self.heartbeater.terminate()
+            self.controller.terminate()
         self.connectButton.setText("Trennen")
+        self.connectButton.clicked.disconnect()
+        self.connectButton.clicked.connect(self.killVPN)
         self.comboBox.clear()
-        self.comboBox.addItem("Mit IP %s, Port %s verbunden." % (partner[0], str(partner[1])))
         self.comboBox.setEnabled(False)
         CONNECTED = True
         self.proxy = proxy.Proxy(self.sock, partner, vpn_side)
@@ -363,6 +367,20 @@ class Interface(QtGui.QWidget, widget.Ui_Widget):
         self.proxy_sen = PSThread(self.proxy)
         self.proxy_rec.start()
         self.proxy_sen.start()
+        if vpn_side:
+            self.p = subprocess.Popen('sudo openvpn config/serverlinux.ovpn', shell=True, stdout=subprocess.PIPE)
+            self.comboBox.addItem("Mit Netzwerk %s verbunden." % '10.8.0.0')
+        else:
+            self.p = subprocess.Popen('sudo openvpn config/clientlinux.ovpn', shell=True, stdout=subprocess.PIPE)
+            self.comboBox.addItem("Mit Netzwerk %s verbunden." % '10.8.0.0')
+
+    def killVPN(self):
+        self.p.kill()
+        self.heartbeater.exit()
+        self.controller.exit()
+        self.proxy_rec.exit()
+        self.proxy_sen.exit()
+        sys.exit(0)  
 
 
     def changePartner(self, partner):
@@ -375,7 +393,7 @@ def setupLogging():
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
     streamHandler.setFormatter(formatter)
     fileHandler.setFormatter(formatter)
-    #logger.addHandler(streamHandler)
+    logger.addHandler(streamHandler)
     logger.addHandler(fileHandler)
     logger.setLevel(logging.DEBUG)
     streamHandler.setLevel(logging.DEBUG)

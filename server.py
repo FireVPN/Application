@@ -54,7 +54,7 @@ class Receiver(threading.Thread):
             except:
                 continue
 
-            elif indicator is 'L':
+            if indicator is 'L':
                 s = False
                 if receivedData[1] in names:
                     s = True
