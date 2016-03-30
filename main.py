@@ -2,6 +2,7 @@ from PyQt4 import QtGui
 from PyQt4.QtCore import QThread, SIGNAL
 import PyQt4.QtCore
 import sys
+from sys import platform as _platform
 import socket
 import widget
 import pickle
@@ -367,12 +368,36 @@ class Interface(QtGui.QWidget, widget.Ui_Widget):
         self.proxy_sen = PSThread(self.proxy)
         self.proxy_rec.start()
         self.proxy_sen.start()
-        if vpn_side:
-            self.p = subprocess.Popen('sudo openvpn config/serverlinux.ovpn', shell=True, stdout=subprocess.PIPE)
-            self.comboBox.addItem("Mit Netzwerk %s verbunden." % '10.8.0.0')
+
+        self.startVPN()
+
+    def startVPN(self):
+        if self.tunnel == "IPv4":
+            if vpn_side:
+                #self.p = subprocess.Popen('sudo openvpn config/server4.ovpn', shell=True, stdout=subprocess.PIPE)
+                conf = "config/server4.ovpn"
+            else:
+                #self.p = subprocess.Popen('sudo openvpn config/client4.ovpn', shell=True, stdout=subprocess.PIPE)
+                conf = "config/client4.ovpn"
+            network = "10.8.0.0"
         else:
-            self.p = subprocess.Popen('sudo openvpn config/clientlinux.ovpn', shell=True, stdout=subprocess.PIPE)
-            self.comboBox.addItem("Mit Netzwerk %s verbunden." % '10.8.0.0')
+            if vpn_side:
+                #self.p = subprocess.Popen('sudo openvpn config/server6.ovpn', shell=True, stdout=subprocess.PIPE)
+                conf = "config/server6.ovpn"
+            else:
+                #self.p = subprocess.Popen('sudo openvpn config/client6.ovpn', shell=True, stdout=subprocess.PIPE)
+                conf = "config/client6.ovpn"
+            network = "2001:db8:0:123::/64"
+
+        self.comboBox.addItem("Mit Netzwerk %s verbunden." % network)
+
+        if _platform == "linux" or _platform == "linux2":
+            self.p = subprocess.Popen('sudo openvpn %s' % conf, shell=True, stdout=subprocess.PIPE)
+        elif _platform == "win32":
+            if(sys.maxsize > 2**32):
+                self.p = subprocess.Popen('C:\Program Files\OpenVPN\bin\openvpn.exe %s' % conf, shell=True, stdout=subprocess.PIPE)
+            else:
+                self.p = subprocess.Popen('C:\Program Files (x86)\OpenVPN\bin\openvpn.exe %s' % conf, shell=True, stdout=subprocess.PIPE)
 
     def killVPN(self):
         self.p.kill()
